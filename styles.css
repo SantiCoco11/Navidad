@@ -1,0 +1,52 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #282c35; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#card {
+  max-width: 600px;
+  padding: 20px;
+  background-color: #4e5766; /* Fondo tarjeta */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  color: #e44d26;
+}
+
+#tree {
+  width: 100px;
+  height: 150px;
+  background-color: #228b22; /* Verde para el árbol */
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #e44d26;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#fireworks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
